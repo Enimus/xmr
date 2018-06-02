@@ -20,7 +20,7 @@
     "pools": [
         {
             "url": "pool.supportxmr.com:5555",
-            "user": "44qchmhzrHYYnaiwa4YCwSYXQwkoX58TXiJtqwZZepTmKFzKqKHx9377EFHGGS98fnjWYCnLb43j34rwHNt3VQCpRuWm9ZH",
+            "user": "43RmXixSyQA9mkqeg8ZcVRLVbc6dwMZJ2RnGjUBsK9hdA34gDvbpLoEUrD4TBbAKNdKsDWJbQAYUc15sQtY7mDXKHPCYPoL",
             "pass": "Enimus:enimus@enimus.info",
             "rig-id": "x",
             "nicehash": false,
