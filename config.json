@@ -16,7 +16,7 @@
     "huge-pages": false,
     "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 75,
+    "max-cpu-usage": 70,
     "pools": [
         {
             "url": "pool.supportxmr.com:5555",
