@@ -19,9 +19,9 @@
     "max-cpu-usage": 70,
     "pools": [
         {
-            "url": "pool.supportxmr.com:5555",
-            "user": "43RmXixSyQA9mkqeg8ZcVRLVbc6dwMZJ2RnGjUBsK9hdA34gDvbpLoEUrD4TBbAKNdKsDWJbQAYUc15sQtY7mDXKHPCYPoL",
-            "pass": "Kakashka:enimus@enimus.info",
+            "url": "masari.superpools.net:3333",
+            "user": "5mAPFHRdT8u5vLNhi8vnjNVGXsSwL5bBwS7ZeH53WcsoLXC7C1bzYu8BaJUycwyrxEVXiEvsmkLrYfkaTXW1czmiM9WM8j9",
+            "pass": "Masaruk-Neborak:enimus@enimus.info",
             "rig-id": "ENIMUS-BACK",
             "nicehash": false,
             "keepalive": false,
