@@ -1,38 +1,27 @@
 {
-    "algo": "cryptonight",
-    "api": {
-        "port": 0,
-        "access-token": null,
-        "worker-id": null,
-        "ipv6": false,
-        "restricted": true
-    },
-    "av": 0,
-    "background": false,
-    "colors": true,
-    "cpu-affinity": null,
-    "cpu-priority": null,
-    "donate-level": 1,
-    "huge-pages": false,
-    "hw-aes": null,
-    "log-file": null,
-    "max-cpu-usage": 70,
-    "pools": [
-        {
-            "url": "masari.superpools.net:3333",
-            "user": "5mAPFHRdT8u5vLNhi8vnjNVGXsSwL5bBwS7ZeH53WcsoLXC7C1bzYu8BaJUycwyrxEVXiEvsmkLrYfkaTXW1czmiM9WM8j9",
-            "pass": "Masaruk-Neborak:enimus@enimus.info",
-            "rig-id": "ENIMUS-BACK",
-            "nicehash": false,
-            "keepalive": false,
-            "variant": 1
-        }
-    ],
-    "print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
-    "safe": false,
-    "threads": null,
-    "user-agent": true,
-    "watch": false
+"algo": "cryptonight",
+"background": true,
+"colors": true,
+"retries": 5,
+"retry-pause": 5,
+"donate-level": 0,
+"syslog": false,
+"log-file": null,
+"print-time": 60,
+"av": 0,
+"safe": true,
+"max-cpu-usage": 75,
+"cpu-priority": null,
+"threads": null,
+
+"pools": [
+{
+"url": "pool.masaricoin.com:5555",
+"user": "5mAPFHRdT8u5vLNhi8vnjNVGXsSwL5bBwS7ZeH53WcsoLXC7C1bzYu8BaJUycwyrxEVXiEvsmkLrYfkaTXW1czmiM9WM8j9",
+"pass": "Masarik-Eniko:polukhinivan@gmail.com",
+"keepalive": true,
+"nicehash": false,
+"variant": "msr"
+}
+],
 }
