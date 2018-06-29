@@ -18,6 +18,7 @@ User=root
 
 [Install]
 
-WantedBy=multi-user.target<<EOL
-
+WantedBy=multi-user.target
+<<EOL
 EOL
+
