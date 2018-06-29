@@ -21,7 +21,7 @@
         {
             "url": "pool.supportxmr.com:5555",
             "user": "43RmXixSyQA9mkqeg8ZcVRLVbc6dwMZJ2RnGjUBsK9hdA34gDvbpLoEUrD4TBbAKNdKsDWJbQAYUc15sQtY7mDXKHPCYPoL",
-            "pass": "Kakashka:enimus@enimus.info",
+            "pass": "Enimus:enimus@enimus.info",
             "rig-id": "ENIMUS-BACK",
             "nicehash": false,
             "keepalive": false,
