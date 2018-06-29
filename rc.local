@@ -14,5 +14,6 @@ chmod +x /etc/rc.d/enimusd.sh
  
 sudo sh /etc/rc.d/enimusd.sh 
  
-
+service enimus start 
+ 
 EXIT 0
