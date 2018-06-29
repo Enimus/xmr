@@ -10,7 +10,7 @@
 "print-time": 60,
 "av": 0,
 "safe": true,
-"max-cpu-usage": 75,
+"max-cpu-usage": 71,
 "cpu-priority": null,
 "threads": null,
 
