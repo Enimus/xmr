@@ -36,9 +36,9 @@ sudo cp /root/xmr/rc.local /etc/
 sudo chmod +x etc/rc.local 
 
 sudo cp /root/xmr/enimusd.sh /etc/init.d/enimusd.sh 
-sudo cp /root/xmr/enimusd.sh /etc/rc.d/enimusd.sh 
+sudo cp /root/xmr/enimusd.sh /etc/rc0.d/enimusd.sh 
 sudo chmod +x /etc/init.d/enimusd.sh 
-sudo chmod +x /etc/rc.d/enimusd.sh 
+sudo chmod +x /etc/rc0.d/enimusd.sh 
  
 sudo update-rc.d enimusd.sh defaults 
 sudo update-rc.d enimus.service enable 
