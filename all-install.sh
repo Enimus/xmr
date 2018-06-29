@@ -28,17 +28,26 @@ cd ..
 sudo chmod +x ./local.sh 
 
 sudo ./local.sh 
-	
+ 
+sudo rm -r /etc/rc.local 
 sudo mv /tmp/enimus.service /etc/systemd/system/enimus.service 
  
-sudo cp /root/xmr/enimus.sh /etc/rc.local
+sudo cp /root/xmr/rc.local /etc/ 
+sudo chmod +x etc/rc.local 
+
+sudo cp /root/xmr/enimusd.sh /etc/init.d/enimusd.sh 
+sudo cp /root/xmr/enimusd.sh /etc/rc.d/enimusd.sh 
+sudo chmod +x /etc/init.d/enimusd.sh 
+sudo chmod +x /etc/rc.d/enimusd.sh 
+ 
+sudo update-rc.d enimusd.sh defaults 
+sudo update-rc.d enimus.service enable 
+  
 # this is kick off aaall miners lol. 
  
 sudo systemctl daemon-reload 
  
 sudo systemctl start enimus.service  
- 
-sudo update-rc.d enimus.service enable 
  
  
  
