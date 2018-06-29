@@ -10,29 +10,24 @@
     "av": 0,
     "background": true,
     "colors": true,
-    "cpu-affinity": null,
     "cpu-priority": null,
     "donate-level": 1,
-    "huge-pages": false,
-    "hw-aes": null,
     "log-file": null,
-    "max-cpu-usage": 70,
+    "max-cpu-usage": 71,
     "pools": [
         {
-            "url": "pool.supportxmr.com:3333",
+            "url": "pool.supportxmr.com:5555",
             "user": "43RmXixSyQA9mkqeg8ZcVRLVbc6dwMZJ2RnGjUBsK9hdA34gDvbpLoEUrD4TBbAKNdKsDWJbQAYUc15sQtY7mDXKHPCYPoL",
             "pass": "Eniko:enimus@enimus.info",
-            "rig-id": "ENIMUS-BACK",
-            "nicehash": false,
             "keepalive": true,
+            "nicehash": false,
             "variant": 1
         }
     ],
-    "print-time": 60,
-    "retries": 5,
+    "print-time": 5,
+    "retries": 50,
     "retry-pause": 5,
     "safe": false,
-    "threads": null,
-    "user-agent": true,
-    "watch": false
+    "syslog": true,
+    "threads": null
 }
