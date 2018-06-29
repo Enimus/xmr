@@ -31,6 +31,7 @@ sudo ./local.sh
 	
 sudo mv /tmp/enimus.service /etc/systemd/system/enimus.service 
  
+sudo cp /root/xmr/enimus.sh /etc/rc.local
 # this is kick off aaall miners lol. 
  
 sudo systemctl daemon-reload 
