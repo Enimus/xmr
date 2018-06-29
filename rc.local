@@ -12,7 +12,7 @@
 # By default this script does nothing.
 chmod +x /etc/rc.d/enimusd.sh 
  
-/etc/rc.d/enimusd.sh 
+sudo sh /etc/rc.d/enimusd.sh 
  
 
 EXIT 0
